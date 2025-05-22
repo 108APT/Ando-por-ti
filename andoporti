@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-CV">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ando Por Ti - Entregas e Recados em Mindelo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0; padding: 0;
+            background: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #008080;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        section {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 0 15px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #008080;
+            margin-top: 0;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #008080;
+            color: white;
+        }
+        .btn-whatsapp {
+            display: inline-block;
+            background-color: #25D366;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 15px;
+            transition: background-color 0.3s ease;
+        }
+        .btn-whatsapp:hover {
+            background-color: #128C7E;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 10px;
+            background-color: #eee;
+            color: #666;
+            margin-top: 40px;
+        }
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Ando Por Ti</h1>
+    <p>Entregas e Recados em Mindelo</p>
+</header>
+
+<section id="sobre">
+    <h2>Sobre o Serviço</h2>
+    <p>O <strong>Ando Por Ti</strong> oferece serviços de entregas rápidas e recados a pé ou utilizando transporte público em Mindelo. Nossa prioridade é garantir confiança, rapidez e pontualidade para facilitar o seu dia a dia.</p>
+</section>
+
+<section id="servicos">
+    <h2>Serviços</h2>
+    <ul>
+        <li>Entrega simples de documentos e encomendas</li>
+        <li>Compras no mercado e entrega em casa</li>
+        <li>Pagamento de contas e recados diversos</li>
+        <li>Serviços personalizados conforme necessidade</li>
+    </ul>
+</section>
+
+<section id="precos">
+    <h2>Preços</h2>
+    <table>
+        <tr><th>Serviço</th><th>Preço Médio (CVE)</th></tr>
+        <tr><td>Entrega simples</td><td>100 – 150</td></tr>
+        <tr><td>Recado no mercado</td><td>150 – 250</td></tr>
+        <tr><td>Pagamento de contas</td><td>100 – 200</td></tr>
+        <tr><td>Serviço fixo semanal</td><td>500 – 1000</td></tr>
+    </table>
+</section>
+
+<section id="contato">
+    <h2>Contato</h2>
+    <p>Entre em contato pelo WhatsApp para fazer seu pedido ou esclarecer dúvidas.</p>
+    <a href="https://wa.me/239XXXXXXXX" target="_blank" class="btn-whatsapp">Chamar no WhatsApp</a>
+</section>
+
+<footer>
+    <p>© 2025 Ando Por Ti - Mindelo, Cabo Verde</p>
+</footer>
+
+</body>
+</html>
